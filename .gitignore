@@ -1,0 +1,109 @@
+# ---------------------------
+# Node / Package Managers
+# ---------------------------
+node_modules/
+**/node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (optional, keep one if you want to pin deps)
+package-lock.json
+yarn.lock
+
+# ---------------------------
+# Logs
+# ---------------------------
+logs
+*.log
+*.log.*
+log-*.txt
+
+# ---------------------------
+# Env Files (Sensitive)
+# ---------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+
+# ---------------------------
+# Turborepo
+# ---------------------------
+.turbo/
+turbo.json.local
+
+# ---------------------------
+# Vite / React Web Apps
+# ---------------------------
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# ---------------------------
+# Expo / React Native Apps
+# ---------------------------
+.expo/
+.expo-shared/
+.expo/*/cache/
+.expo/*/logs/
+*.apk
+*.aab
+*.ipa
+
+# Metro Bundler cache
+.expo-packager-cache/
+.expo-bundler-cache/
+
+# iOS
+ios/build/
+ios/Pods/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# ---------------------------
+# Backend (Node.js)
+# ---------------------------
+/backend/dist
+/backend/build
+/backend/.env
+
+# ---------------------------
+# Testing / Coverage
+# ---------------------------
+coverage/
+.nyc_output/
+*.lcov
+
+# ---------------------------
+# Editors / OS
+# ---------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---------------------------
+# Archives / Temp
+# ---------------------------
+*.tgz
+*.tar.gz
+*.zip
+*.tmp
